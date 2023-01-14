@@ -58,7 +58,7 @@ class NotificationItem extends StatelessWidget {
                         const Spacer(),
                         Text(
 
-                          DateFormat("HH:mm").format(
+                          DateFormat("hh:mm a").format(
                             DateTime.parse(orderTime),),
                           style: Theme.of(context).textTheme.displaySmall,
                         ),
